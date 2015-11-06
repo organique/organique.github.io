@@ -1,1 +1,1 @@
-# httpl://organique.github.io
+# http://organique.github.io
