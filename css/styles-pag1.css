@@ -1,0 +1,24 @@
+@charset "utf-8";
+.header {
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid #ccc;
+  background: #ECECEC;
+  z-index: 2;
+}
+#center-logo {
+	margin: auto;
+}.margem-topo {
+	margin-top: 100px;
+}
+.h6-style {
+	margin-top: 50px;
+	font-size: x-small;
+	text-align: center;
+}
+a:hover {
+	text-decoration: none;
+}
