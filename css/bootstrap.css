@@ -1292,7 +1292,10 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+	margin-top: 100px;
+	margin-right: 0;
+	margin-left: 50px;
+	margin-bottom: 10px;
 }
 .lead {
   margin-bottom: 20px;
@@ -1598,10 +1601,11 @@ pre code {
   }
 }
 .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: px;
 }
 .row {
   margin-right: -15px;
@@ -6586,3 +6590,18 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+#ajeitarconteudo {
+	float: left;
+	margin-left: 0px;
+	clear: left;
+}
+.div {
+}
+.imgdiv {
+}
+#img-conserto {
+}
+.arrumar-img {
+}
+#ajeitar-img {
+}
