@@ -50,13 +50,11 @@ html, body {
 	height: 100%;
 	max-height: auto;
 }
-.content {
-	position:relative;
-}
 #centralizar-jogo {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	margin-top: 110px;
 }
 #center-text {
 	text-align: center;
