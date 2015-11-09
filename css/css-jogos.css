@@ -53,3 +53,11 @@ html, body {
 .content {
 	position:relative;
 }
+#centralizar-jogo {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#center-text {
+	text-align: center;
+}
