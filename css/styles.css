@@ -11,16 +11,13 @@
 #center-logo {
 	margin: auto;
 }
-#background {
-	background-color: #A4FF69;
-}
 #imagem-home {
 	max-width: 100%;
 	max-height: 100%;
 	display: inline;
 	padding: 0;
 	margin-top: 100px;
-	margin-bottom: 55px;
+	margin-bottom: 65px;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -35,7 +32,7 @@
 /*  COLUMN SETUP  */
 .col {
 	display: block;
-	float:left;
+	float: left;
 	margin: 1% 0 1% 0%;
 }
 .col:first-child { margin-left: 0; }
@@ -71,33 +68,55 @@
 	margin: auto;
 	text-align: center;
 	font-family: Montserrat;
+	color: #0B3100;
 }
 #container {
 	margin-top: 0px;
 }
+a:link {
+	color: #0B3100;
+}
+a:visited {
+	color: #0B3100;
+}
 a:hover {
 	text-decoration:none; 
+	font-weight: bold;
 }
 .div-radius {
 	border-radius: 5px;
 }
 #div-highlight1 {
+	height: 240px;
 }
 #div-highlight2 {
+	height: 240px;
 }
 #div-highlight3 {
+	height: 240px;
 }
 #div-highlight4 {
+	height: 240px;
 }
-.div-highlight5 {
+.div-highlight5 {		
+	height: 240px;
 }
-#div-highlight6 {
+#div-highlight6 {		
+	height: 240px;
 }
 #div-highlight7 {
+	height: 240px;
 }
 .div-highlight8 {
+	height: 240px;
 }
 #background {
-	background-color: #B1E882;
-	
+	background-color: #c6f59e;
+	max-width: 100%;
+	max-height: 100%;
+}
+	#foot {
+	bottom: 0px;
+	width: 100%;
+	background-color:#c6f59e;
 }

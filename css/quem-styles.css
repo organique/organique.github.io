@@ -14,19 +14,13 @@
 .margem {
 	margin-top: 200px;
 }
-a:hover {
-	text-decoration: none;
-}
-#footer-style {
-	text-align: center;
-}
 .ajeitar-img {
 	float: left;
 	margin-left: auto;
 	margin-right: auto;
 }
 .ajeitar-container {
-	background-color: #92D651;
+	background-color: #F485AF;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 50%;
@@ -38,9 +32,12 @@ a:hover {
 	padding-right: 0px;
 }
 #subir-texto {
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
+	padding-top: 10px;
+	margin-bottom: px;
+	font-family: "Open Sans";
 }
 @media only screen and (max-width: 480px) {
 	.ajeitar-img, #subir-texto { 
@@ -51,10 +48,14 @@ a:hover {
 	margin-top: 0px;
 	margin-left: 5px;
 	margin-right: auto;
+	font-family: Montserrat;
+	font-weight: bolder;
+	font-size: large;
+	background-color: #F485AF;
 }
 /* fundo e rodapé */
 #background {
-	background-color: #A4FF69;
+	background-color: #c6f59e;
 	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
@@ -66,9 +67,11 @@ a:hover {
 #foot {
 	bottom: 0px;
 	width: 100%;
-	text-align: right;
+	text-align: center;
 	font-family: "Open Sans";
 	font-size: small;
+	font-weight: bold;
+	color: #0B3100;
 }
 html, body {
 	height: 100%;
@@ -77,11 +80,15 @@ html, body {
 .content {
 	position:relative;
 }
-#wrapper {
-	padding-left: 0px;
-	padding-right: 0px;
-	text-align: right;
+a:link {
+	color: #0B3100;
+	font-weight: normal;	
 }
-.edit-image {
-	float: right;
+a:hover {
+	text-decoration: none;
+	color:#267306;
+	font-weight: bold;
+}
+a:visited {
+	color: #0B3100;
 }
