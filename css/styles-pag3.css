@@ -41,10 +41,11 @@ a:visited {
 	bottom: 0px;
 	width: 100%;
 	text-align: center;
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 	font-size: small;
 	font-weight: bold;
 	color: #0B3100;
+	font-style: normal;
 }
 html, body {
 	height: 100%;

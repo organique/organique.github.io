@@ -37,7 +37,9 @@
 	margin-left: auto;
 	padding-top: 10px;
 	margin-bottom: px;
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
+	font-style: normal;
+	font-weight: 300;
 }
 @media only screen and (max-width: 480px) {
 	.ajeitar-img, #subir-texto { 
@@ -48,10 +50,11 @@
 	margin-top: 0px;
 	margin-left: 5px;
 	margin-right: auto;
-	font-family: Montserrat;
-	font-weight: bolder;
+	font-family: Montserrat, "sans-serif";
+	font-weight: bold;
 	font-size: large;
 	background-color: #92D651;
+	font-style: normal;
 }
 /* fundo e rodapé */
 #background {
@@ -68,10 +71,11 @@
 	bottom: 0px;
 	width: 100%;
 	text-align: center;
-	font-family: "Open Sans";
+	font-family: "Open Sans", sans-serif;
 	font-size: small;
 	font-weight: bold;
 	color: #0B3100;
+	font-style: normal;
 }
 html, body {
 	height: 100%;
