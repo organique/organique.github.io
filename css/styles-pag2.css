@@ -5,14 +5,14 @@
 	top: 0;
 	right: 0;
 	left: 0;
-	background-color: 	#92D651;
+	background-color: #92D651;
 	z-index: 2;
 }
 #center-logo {
 	margin: auto;
 }
 .margem-topo {
-	margin-top: 100px;
+	margin-top: 85px;
 }
 a:link {
 	color: #0B3100;
@@ -56,3 +56,31 @@ html, body {
 }
 
 
+#objeto1 {
+	float: none;
+	max-height: 0%;
+	max-width: 70%;
+	margin-top: -35%;
+	margin-left: 30%;
+}
+#objeto2 {
+	max-width: 50%;
+	float: none;
+	margin-top: 5%;
+	max-height: 75%;
+	margin-left: 5%;
+}
+#tamanho-carrossel {
+	max-width: 100%;
+	max-height: 100%;
+}
+@media only screen and (max-width: 460px) {
+	#objeto2 {
+		max-height: 50%;
+		max-width: 100%;
+	}
+	#objeto1 {
+	margin-top: auto;
+	max-height: 50%
+	}
+}
