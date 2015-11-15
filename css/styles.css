@@ -246,26 +246,6 @@ body {
 	padding-right: -10px;
 }
 }
-@media only screen and (max-width: 320px) {
-.scrollable-menu {
-    height: auto;
-	width: auto;
-	max-height: 150px;
-	max-width: 150px;
-	overflow: auto;
-}
-#center-logo {
-	max-width: 50%;
-	max-height: 100%;
-	padding-top: 20px;
-}
-#editar-fundo {
-	marign-top: -25px;
-}
-#logo {
-max-width: 50%;
-}
-#clicked {
-max-width: 50%;
-}
+.pull-right {
+	float: right!important;
 }
