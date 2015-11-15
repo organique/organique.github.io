@@ -1,0 +1,271 @@
+@charset "utf-8";
+/*Grid-responsiva*/
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 0%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 75%;
+}
+.span_2_of_4 {
+	width: 50%;
+}
+.span_1_of_4 {
+	width: 25%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 {
+	width: 100%;
+}
+	.margem-top {
+	 margin-top: 60px;
+	}
+}
+.center-image {
+	margin: auto;
+}
+.center-text {
+	margin: auto;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	color: #0B3100;
+}
+a:link {
+	color: #0B3100;
+}
+a:visited {
+	color: #0B3100;
+}
+a:hover {
+	text-decoration:none; 
+	font-weight: bold;
+}
+.div-radius {
+	border-radius: 5px;
+}
+#div-highlight1 {
+	height: 240px;
+}
+#div-highlight2 {
+	height: 240px;
+}
+#div-highlight3 {
+	height: 240px;
+}
+#div-highlight4 {
+	height: 240px;
+}
+.div-highlight5 {		
+	height: 240px;
+}
+#div-highlight6 {		
+	height: 240px;
+}
+#div-highlight7 {
+	height: 240px;
+}
+.div-highlight8 {
+	height: 240px;
+}
+#background {
+	background-color: #c6f59e;
+	max-width: 100%;
+	max-height: 100%;
+	background-size: auto auto;
+}
+	body {
+		background-color: #c6f59e;
+	}
+	#margem {
+		margin-top: 8%;
+	}.margem-top {
+}
+
+#center-logo {
+	margin: auto;
+	display: inline;
+	position: relative;
+}
+	
+/* Account for fixed navbar */
+body {
+	padding-top: 8%;
+}
+
+/* Finesse the page header spacing */
+.page-header {
+  margin-bottom: 30px;
+}
+.page-header .lead {
+  margin-bottom: 10px;
+}
+
+
+/* Non-responsive overrides
+ *
+ * Utilitze the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+
+/* Reset the container */
+ .container {
+   max-width: none !important;
+   width: 970px;
+ }
+ 
+/* Demonstrate the grids */
+ .col-xs-4 {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   background-color: rgba(86,61,124,.15);
+   border: 1px solid rgba(86,61,124,.2);
+ }
+
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+  float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-brand {
+	margin: auto;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+  float: right;
+  margin: 0;
+}
+.navbar-nav > li {
+  float: none;
+}
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: left;
+}
+
+/* Undo custom dropdowns */
+.navbar .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+}
+.navbar .open .dropdown-menu > li > a {
+  color: #333;
+}
+.navbar .open .dropdown-menu > li > a:hover,
+.navbar .open .dropdown-menu > li > a:focus,
+.navbar .open .dropdown-menu > .active > a,
+.navbar .open .dropdown-menu > .active > a:hover,
+.navbar .open .dropdown-menu > .active > a:focus {
+  color: #003302 !important;
+}
+.navbar .open .dropdown-menu > .disabled > a,
+.navbar .open .dropdown-menu > .disabled > a:hover,
+.navbar .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}
+.header {
+	background-color: #92D651;
+}
+#editar-fundo {
+	background-color: #92D651;
+}#clicked {
+	background-color: #92D651;
+}
+
+@media only screen and (max-width: 480px) {
+	body {
+		padding-top: 50px;
+}
+ .navbar .open .dropdown-menu > li > a { 
+	font-size: small;
+}
+.scrollable-menu {
+    height: auto;
+	width: auto;
+	max-height: 200px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+#center-logo {
+	max-width: 75%;
+	max-height: 100%;
+	padding-top: 10px;
+}
+#editar-fundo {
+	padding-right: -10px;
+}
+}
+@media only screen and (max-width: 320px) {
+.scrollable-menu {
+    height: auto;
+	width: auto;
+	max-height: 150px;
+	max-width: 150px;
+	overflow: auto;
+}
+#center-logo {
+	max-width: 50%;
+	max-height: 100%;
+	padding-top: 20px;
+}
+#editar-fundo {
+	marign-top: -25px;
+}
+#logo {
+max-width: 50%;
+}
+#clicked {
+max-width: 50%;
+}
+}
