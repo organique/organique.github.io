@@ -1,12 +1,15 @@
 @charset "utf-8";
-
-h4 {
-	text-align:center;
-	font-family:"Open Sans", sans-serif;
-	font-weight:500;
+.header {
+	min-height: 60px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: #92D651;
+	z-index: 2;
 }
-body {
-	background-color: #c6f59e;
+#center-logo {
+	margin: auto;
 }
 .margem {
 	margin-top: 200px;
@@ -53,37 +56,43 @@ body {
 	background-color: #92D651;
 	font-style: normal;
 }
+/* fundo e rodapé */
 #background {
 	background-color: #c6f59e;
-	max-width: 100%;
-	max-height: 100%;
-	background-size: auto auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	max-width: auto;
+	max-height: auto;
+	min-width: 100%;
+	min-height: 100%;
 }
-	body {
-		background-color: #c6f59e;
-	}
-#logo {
-	margin-top: -25px;
+#foot {
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	font-family: Open Sans, sans-serif;
+	font-size: normal;
+	font-weight: bold;
+	color: #0B3100;
+	font-style: normal;
 }
-
-#header {
-	background-color: #92D651;
+html, body {
+	height: 100%;
+	max-height: auto;
 }
-
-#background-header {
-	background-color:#92D651;
+.content {
+	position:relative;
 }
-#logo {
-	margin-left: 60px;
+a:link {
+	color: #0B3100;
+	font-weight: normal;	
 }
-@media only screen and (max-width: 480px) {
-  #logo {
-	margin-left: 0px;
-  }
-  #move-nav {
-	margin-right: 0px;
+a:hover {
+	text-decoration: none;
+	color:#267306;
+	font-weight: bold;
 }
-}
-#move-nav {
-	margin-right: 60px;
+a:visited {
+	color: #0B3100;
 }
