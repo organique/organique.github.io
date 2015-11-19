@@ -1,13 +1,12 @@
 @charset "utf-8";
-/*Grid-responsiva*/
-/*  SECTIONS  */
+
 .section {
 	clear: both;
 	padding: 0px;
 	margin: 0px;
 }
 
-/*  COLUMN SETUP  */
+
 .col {
 	display: block;
 	float: left;
@@ -15,12 +14,11 @@
 }
 .col:first-child { margin-left: 0; }
 
-/*  GROUPING  */
 .group:before,
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-/*  GRID OF FOUR  */
+.group { zoom:1;  }
+
 .span_4_of_4 {
 	width: 100%;
 }
@@ -34,7 +32,7 @@
 	width: 25%;
 }
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
+
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 {
@@ -46,13 +44,6 @@
 }
 .center-image {
 	margin: auto;
-}
-.center-text {
-	margin: auto;
-	text-align: center;
-	font-family: Montserrat, sans-serif;
-	color: #0B3100;
-	font-size: medium;
 }
 a:link {
 	color: #0B3100;
@@ -68,28 +59,28 @@ a:hover {
 	border-radius: 5px;
 }
 #div-highlight1 {
-	height: 250px;
+	transition-delay: 0.1s;
 }
 #div-highlight2 {
-	height: 250px;
+	transition-delay: 0.1s;
 }
 #div-highlight3 {
-	height: 250px;
+	transition-delay: 0.1s;
 }
 #div-highlight4 {
-	height: 250px;
+	transition-delay: 0.1s;
 }
 .div-highlight5 {		
-	height: 250px;
+	transition-delay: 0.1s;
 }
 #div-highlight6 {		
-	height: 250px;
+	transition-delay: 0.1s;
 }
 #div-highlight7 {
-	height: 250px;
+	transition-delay: 0.1s;
 }
 .div-highlight8 {
-	height: 250px;
+	transition-delay: 0.1s;
 }
 #background {
 	background-color: #c6f59e;
@@ -116,7 +107,7 @@ a {
 	font-color: #0E2E00;
 }
 .paddings {
-	padding-top: 25px;
+	padding-top: 70px;
 }
 #logo {
 	margin-left: 60px;

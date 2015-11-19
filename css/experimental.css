@@ -35,10 +35,6 @@ h4 {
 body {
 	background-color: #c6f59e;
 }
-.carrosselmargem {
-	margin-top: 10px;
-	background-color: #AFF4F9;
-}
 #logo {
 	margin-left: 60px;
 }
@@ -52,4 +48,32 @@ body {
 }
 #move-nav {
 	margin-right: 60px;
+}
+.margem-cont {
+	margin-top: 5px;
+}
+.div-1 {
+	max-width: 50%;
+	max-height: 100%;
+	float: left
+}
+.div-2 {
+	max-width: 50%;
+	max-height: 100%;
+	float: right;
+}
+@media only screen and (max-width: 480px) {
+	.div-1, .div-2 {
+		max-width: 100%;
+		max-height: 50%;
+	}
+	.margem-cont {
+		margin-top: 20px;
+	}
+}
+.padding {
+	padding: 0px;
+}
+#pezinho {
+	margin-top: 20px;
 }
