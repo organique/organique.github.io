@@ -88,7 +88,7 @@ body {
 	margin-right: 60px;
 } 
 #border-quem {
-	border-bottom: 1px solid #f26ea0;
+	border-bottom: 2px solid #f26ea0;
 }
 li {
 	transition-duration: 0.1s;

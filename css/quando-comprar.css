@@ -85,7 +85,7 @@ h4 {
 		padding-right: 255px;
 	} 
 } #nav-quando {
-	border-bottom: 1px solid #ff683a;
+	border-bottom: 2px solid #ff683a;
 }
 li {
 	transition-duration: 0.1s;
