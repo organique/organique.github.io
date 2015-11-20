@@ -77,3 +77,12 @@ body {
 #pezinho {
 	margin-top: 20px;
 }
+@media only screen and (min-width: 1370px)
+{
+	.div-1 {
+		padding-left: 255px;
+	}
+	.div-2 {
+		padding-right: 255px;
+	}
+}
