@@ -67,11 +67,11 @@ body {
 }
 
 #header {
-	background-color: #92D651;
+	background-color: #c5e2b5;
 }
 
 #background-header {
-	background-color:#92D651;
+	background-color:#c5e2b5;
 }
 #logo {
 	margin-left: 60px;
@@ -86,4 +86,10 @@ body {
 }
 #move-nav {
 	margin-right: 60px;
+} 
+#border-quem {
+	border-bottom: 1px solid #f26ea0;
+}
+li {
+	transition-duration: 0.1s;
 }
