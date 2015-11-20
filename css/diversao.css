@@ -1,13 +1,12 @@
 @charset "utf-8";
 
 #background {
-	background-color: #c6f59e;
 	max-width: 100%;
 	max-height: 100%;
 	background-size: auto auto;
 }
 	body {
-		background-color: #c6f59e;
+		background-color: #cbbdf4;
 	}
 #logo {
 	margin-top: -25px;
@@ -32,9 +31,6 @@ h4 {
 	font-family:"Open Sans", sans-serif;
 	font-weight:500;
 }
-body {
-	background-color: #c6f59e;
-}
 #logo {
 	margin-left: 60px;
 }
@@ -49,10 +45,8 @@ body {
 #move-nav {
 	margin-right: 60px;
 }
-
-#nav-games {
-	border-bottom: 2px solid #a976e3;
-}
 li {
 	transition-duration: 0.1s;
+}#nav-jogos {
+	border-bottom: 2px solid #a976e3;
 }
