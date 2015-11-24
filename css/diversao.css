@@ -47,6 +47,44 @@ h4 {
 }
 li {
 	transition-duration: 0.1s;
-}#nav-jogos {
+} #nav-jogos {
 	border-bottom: 2px solid #a976e3;
+}
+@media only screen and (max-width: 480px) {
+	.div-1, .div-2 {
+		max-width: 100%;
+		max-height: 50%;
+	}
+	.margem-cont {
+		margin-top: 85px;
+	}
+}
+.padding {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#pezinho {
+	margin-top: 20px;
+}
+@media only screen and (min-width: 1370px)
+{
+	.div-1 {
+		padding-left: 255px;
+	}
+	.div-2 {
+		padding-right: 255px;
+	} 
+} 
+.margem-cont {
+	margin-top: 75px;
+}
+.div-1 {
+	max-width: 50%;
+	max-height: 100%;
+	float: left;
+}
+.div-2 {
+	max-width: 50%;
+	max-height: 100%;
+	float: right;
 }
