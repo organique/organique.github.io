@@ -12,7 +12,7 @@ body {
 	margin-top: -25px;
 }
 a {
-	text-align:center;
+font-color: #0E2E00;
 	font-family:"Open Sans", sans-serif;
 }
 
@@ -79,4 +79,12 @@ li {
 }
 #move-nav {
 	margin-right: 60px;
+}
+.espaço {
+	padding-top: 25px;
+}
+
+#call-to-action {
+	margin: auto;
+	transition-duration: 0.1s;
 }

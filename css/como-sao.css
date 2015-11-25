@@ -90,3 +90,11 @@ h4 {
 li {
 	transition-duration: 0.1s;
 }
+.espaço {
+	padding-top: 25px;
+}
+
+#call-to-action {
+	margin: auto;
+	transition-duration: 0.1s;
+}
